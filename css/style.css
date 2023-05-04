@@ -1,6 +1,6 @@
 @font-face {
     font-family: "ChocolateCovered";
-    src: url(../fonts/Chocolate\ Covered\ Raindrops\ BOLD.ttf);
+    src: url(../fonts/Chocolate\ Covered\ Raindrops.ttf);
 }
 
 .logo {
@@ -13,4 +13,18 @@
 
 .size {
     --bs-navbar-brand-font-size: 2rem;
+}
+
+.bg-image-1 {
+    background: url(../img/03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-2 {
+    background: url(../img/04.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
