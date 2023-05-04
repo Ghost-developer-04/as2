@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "ChocolateCovered";
+    src: url(../fonts/Chocolate\ Covered\ Raindrops\ BOLD.ttf);
+}
+
+.logo {
+    font-family: ChocolateCovered, serif;
+}
+
+.toggle-border {
+    --bs-navbar-toggler-border-color: none;
+}
+
+.size {
+    --bs-navbar-brand-font-size: 2rem;
+}
