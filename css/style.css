@@ -28,3 +28,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.bg-image-3 {
+    background: url(../img/05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
