@@ -391,7 +391,7 @@
                     <section id="image-carousel-2" class="splide" aria-label="Beautiful Images">
                         <div class="splide__track">
                             <ul class="splide__list">
-                                <li class="splide__slide text-center text-white">
+                                <li class="splide__slide text-center text-white" data-splide-interval="5000">
                                     <div>
                                         <img src="img/pizza.png" alt="..." class="img-fluid">
                                     </div>
@@ -407,7 +407,7 @@
                                         <button class="btn btn-outline-danger border-3 rounded-5 text-uppercase text-light px-3">View Menu</button>
                                     </div>
                                 </li>
-                                <li class="splide__slide text-center text-light">
+                                <li class="splide__slide text-center text-light" data-splide-interval="5000">
                                     <div>
                                         <img src="img/coding.png" alt="..." class="img-fluid">
                                     </div>
@@ -460,8 +460,8 @@
     <script>
         new Splide( '#image-carousel-2', {
             type: "loop",
-            drag: "free",
-            snap: true
+            autoplay: "play",
+            pauseOnHover: true
         } ).mount();
     </script>
 </body>
